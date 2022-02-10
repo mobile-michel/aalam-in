@@ -1,0 +1,15 @@
+---
+const greeting = 'Hello';
+let name = 'Mike';
+let items = ['item1', 'item2', 'item3']
+---
+
+<main>
+  <h1>Hello {name}!</h1>
+  <h2 data-hint={`Use JS template strings when you need to mix-in ${"variables"}.`}>So good!</h2>
+  <ul>
+    {items.map((item) => (
+      <li>{item}</li>
+    ))}
+  </ul>
+</main>
