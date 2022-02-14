@@ -12,6 +12,7 @@ export default {
     // port: 3000,             // The port to run the dev server on.
   },
   renderers: [
-    "@astrojs/renderer-preact"
+    '@astrojs/renderer-svelte',
+    '@astrojs/renderer-preact',
   ],
 };
